@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Task list</h2>
+        <label for="taskInput">Add task</label>
+        <input type="text" id="taskInput" class="taskInput" placeholder="Write task you want to add" maxlength="70" required>
+        <button type="submit" id="add">Add</button>
+        <div class="tasks">
+            <h3 id="totaltasks">Total tasks: 0</h3><span><h3 id="checkedtasks">Checked tasks: 0</h3></span>
+        </div>
+        <div class="btnwrap">
+            <button id="removeall">Remove all</button>
+        </div>
+    </div>
+
+    <ul class="itemcontainer" id="itemcontainer">
+        
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>

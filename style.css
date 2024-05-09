@@ -1,0 +1,143 @@
+body {
+    background-color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 900px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.445);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(85, 140, 243);
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+}
+
+label {
+    display: flex;
+    font-size: 22px;
+    color: white;
+    margin-left: 80px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+
+.taskInput {
+    width: 70%;
+    height: 40px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: 2px solid rgba(100, 148, 237, 0.651);
+    font-size: 20px;
+}
+
+#add {
+    width: 110px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(126, 169, 248);
+    border: cornflowerblue 2px solid;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#add:hover {
+    background-color: rgba(126, 169, 248, 0.746);
+}
+
+.itemcontainer {
+    text-decoration: none;
+    margin: auto;
+    margin-right: 35px;
+}
+
+.item {
+    width: 900px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.445);
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(90, 143, 243);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+.item p {
+    margin-left: 10px;
+}
+
+.check {
+    height: 80px;
+    width: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.check:hover {
+    background-color: rgba(84, 233, 109, 0.849);
+    color: green;
+}
+
+.tasks {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.btnwrap {
+    display: flex;
+    justify-content: center;
+}
+
+#removeall {
+    width: 130px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(126, 169, 248);
+    border: cornflowerblue 2px solid;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#removeall:hover {
+    background-color: rgba(126, 169, 248, 0.746);
+}
+
+.remove {
+    height: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: rgba(245, 50, 50, 0.883);
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.remove:hover {
+    background-color: rgb(245, 50, 50);
+}
